@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Pharmacy</h1>
+      <p>your best online pharmacy in the middle east</p>
+      <img
+        src="https://transcode-v2.app.engoo.com/image/fetch/f_auto,c_lfill,w_600,dpr_1/https://assets.app.engoo.com/images/HjnmgIKJXcn2eG2FyZbvukCARnINNub5Qw5tDRXrngY.jpeg"
+        alt="just a pharmacy pic"
+      />
     </div>
   );
 }
